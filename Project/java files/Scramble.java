@@ -255,10 +255,9 @@ public class Scramble {
 	public int getLength() {return scramble.size();}
 	/* changes the Scramble by a rotation / symmetry. a rotation is saved as
 	 * an int 0-47. 6 possible rotations to place the correct U face, 4 to place
-	 * the F face, doubled for mirror along R axis.*/
+	 * the F face, doubled for mirror along R axis.
+	 * NOT CURRENTLY IMPLEMENTED */
 	public void rotate(int rotation) {
 		
 	}
-	/* the following code is used in the solver class to return the toInt
-	 * value of the smallest and largest and is very inelligant*/
 }
