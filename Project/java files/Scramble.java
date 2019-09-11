@@ -155,8 +155,7 @@ public class Scramble {
 	}
 	/* a helper method for toInt which only deals with scrambles < 8 in size. 
 	 * a new Scramble object must be created which contains only the < 8 moves
-	 * to use this. DEFUNCT -- NO LONGER IN USE, but it's public so it can still
-	 * be directly called*/
+	 * to use this. */
 	public int toSingleInt() {
 		int rtrnInt = 0;
 		LinkedList<Integer> toList = new LinkedList<Integer>();
